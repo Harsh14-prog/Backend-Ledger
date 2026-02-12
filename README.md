@@ -130,20 +130,24 @@ src/
 ```
 ---
 
-⚙ Installation :
+## ⚙ Installation :
 
 git clone https://github.com/Harsh14-prog/Backend-Ledger.git
 cd Backend-Ledger
 npm install
 
-Create .env file: 
+--- 
 
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLIENT_ID=your_google_client_id
-CLIENT_SECRET=your_google_client_secret
-REFRESH_TOKEN=your_refresh_token
-EMAIL_USER=your_email
+## Create .env file: 
 
-Run:
+- MONGODB_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+- CLIENT_ID=your_google_client_id
+- CLIENT_SECRET=your_google_client_secret
+- REFRESH_TOKEN=your_refresh_token
+- EMAIL_USER=your_email
+
+--- 
+
+## Run:
 npm run dev
