@@ -132,9 +132,9 @@ src/
 
 ## ⚙ Installation :
 
-git clone https://github.com/Harsh14-prog/Backend-Ledger.git
-cd Backend-Ledger
-npm install
+- git clone https://github.com/Harsh14-prog/Backend-Ledger.git
+- cd Backend-Ledger
+- npm install
 
 --- 
 
