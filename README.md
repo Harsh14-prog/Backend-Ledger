@@ -1,27 +1,20 @@
-💳 Bank Transaction System Backend
+# 💳 Bank Transaction System Backend
 
-A production-style Banking Transaction Backend System built using Node.js and Express.js, designed to simulate how real banking systems securely process financial transactions.
+A production-style Banking Transaction Backend System built using Node.js and Express.js.
 
-🧠 Overview :
+---
+
+## 🧠 Overview
 
 This project simulates real-world banking operations:
 
-Account creation
-Deposits
-Withdrawals
-Inter-account transfers
-Transaction logging
+- Account creation
+- Deposits
+- Withdrawals
+- Inter-account transfers
+- Transaction logging
 
-The system guarantees:
-
-No negative balances
-No partial transactions
-Atomic money movement
-Safe database updates
-
-🏗 Architecture : 
-
-Client → Routes → Controllers → Services → Models → Database
+---
 
 ## 🔄 System Architecture Flow
 
@@ -80,24 +73,29 @@ flowchart TD
     E --> F[Return Success]
 ```
 
-🧾 Features : 
+---
 
-1) Account Management
-2) Deposit & Withdrawal
-3) Safe Money Transfer
-4) Transaction History
-5) Input Validation
-6) Error Handling Middleware
-7) Modular Architecture
-8) Database Transaction Support
+## 🧾 Features
 
-📦Tech Stack :
+- Account Management
+- Deposit & Withdrawal
+- Safe Money Transfer
+- Transaction History
+- Input Validation
+- Error Handling Middleware
+- Modular Architecture
+- Database Transaction Support
+---
 
-Node.js
-Express.js
-MongoDB 
-Mongoose 
-Postman (Testing)
+## 📦Tech Stack :
+
+- Node.js
+- Express.js
+- MongoDB 
+- Mongoose 
+- Postman (Testing)
+
+---
 
 📌API Endpoints :
 
@@ -116,8 +114,11 @@ Postman (Testing)
 | POST   | `/api/transactions/transfer` | Transfer Money      |
 | GET    | `/api/transactions`          | Transaction History |
 
-📁 Project Structure :
+--- 
 
+## 📁 Project Structure
+
+```bash
 src/
 ├── routes/
 ├── controllers/
@@ -126,6 +127,8 @@ src/
 ├── middlewares/
 ├── config/
 └── app.js
+```
+---
 
 ⚙ Installation :
 
