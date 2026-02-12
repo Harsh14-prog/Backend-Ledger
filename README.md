@@ -23,8 +23,9 @@ Safe database updates
 
 Client → Routes → Controllers → Services → Models → Database
 
-🔄 System Architecture Flow :
+## 🔄 System Architecture Flow
 
+```mermaid
 flowchart TD
     A[Client / Postman] --> B[Express Routes]
     B --> C[Controller Layer]
@@ -34,9 +35,12 @@ flowchart TD
     E -->|Invalid| G[Error Response]
     F --> H[(Database)]
     H --> I[Response Sent to Client]
+```
 
-💳 Money Transfer Processing Flow :
 
+## 💳 Money Transfer Processing Flow
+
+```mermaid
 flowchart TD
     A[Transfer Request] --> B[Validate Input]
     B -->|Invalid| Z[Return Error]
@@ -56,9 +60,12 @@ flowchart TD
     H --> I[Insert Transaction Record]
     I --> J[Commit Transaction]
     J --> K[Success Response]
+```
 
-🔁 Transaction Rollback Safety :
 
+## 🔁 Transaction Rollback Safety :
+
+```mermaid
 flowchart TD
     A[Begin DB Transaction] --> B[Debit Sender]
     B -->|Fail| R[Rollback]
@@ -71,18 +78,18 @@ flowchart TD
 
     D --> E[Commit]
     E --> F[Return Success]
-
+```
 
 🧾 Features : 
 
-Account Management
-Deposit & Withdrawal
-Safe Money Transfer
-Transaction History
-Input Validation
-Error Handling Middleware
-Modular Architecture
-Database Transaction Support
+1) Account Management
+2) Deposit & Withdrawal
+3) Safe Money Transfer
+4) Transaction History
+5) Input Validation
+6) Error Handling Middleware
+7) Modular Architecture
+8) Database Transaction Support
 
 📦Tech Stack :
 
